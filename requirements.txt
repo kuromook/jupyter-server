@@ -28,6 +28,8 @@ nbformat==4.4.0
 notebook==5.5.0
 numpy==1.14.3
 octave-kernel==0.28.3
+opencv-contrib-python==3.4.1.15
+opencv-python==3.4.1.15
 pandocfilters==1.4.2
 parso==0.2.0
 pexpect==4.5.0
