@@ -8,8 +8,12 @@ RUN apt-get install cmake git libgtk2.0-dev pkg-config libavcodec-dev libavforma
 
 RUN apt-get install python-dev python-numpy libtbb2 libtbb-dev libjpeg-dev libpng-dev libtiff-dev libjasper-dev libdc1394-22-dev
 
-USER sh1
-RUN mkdir /home/sh1/jupyter_server
-WORKDIR /home/sh1/jupyter_server
-RUN python3 -m venv venv
-
+#USER sh1
+#WORKDIR /home/sh1
+#RUN git clone git@github.com:kuromook/jupyter_server.git
+#WORKDIR /home/sh1/jupyter_server
+#RUN python3 -m venv venv
+#CMD cd jupyter_server
+#CMD source venv/bin/activate
+#CMD pip install -r requirements.txt
+#CMD nohup jupyter notebook &
