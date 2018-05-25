@@ -2,11 +2,13 @@ absl-py==0.2.2
 astor==0.6.2
 backcall==0.1.0
 bleach==1.5.0
+cycler==0.10.0
 decorator==4.3.0
 entrypoints==0.2.3
 enum34==1.1.6
 gast==0.2.0
 grpcio==1.12.0
+h5py==2.7.1
 html5lib==0.9999999
 ipykernel==4.8.2
 ipython==6.4.0
@@ -19,8 +21,11 @@ jupyter==1.0.0
 jupyter-client==5.2.3
 jupyter-console==5.2.0
 jupyter-core==4.4.0
+Keras==2.1.6
+kiwisolver==1.0.1
 Markdown==2.6.11
 MarkupSafe==1.0
+matplotlib==2.2.2
 metakernel==0.20.14
 mistune==0.8.3
 nbconvert==5.3.1
@@ -39,7 +44,10 @@ prompt-toolkit==1.0.15
 protobuf==3.5.2.post1
 ptyprocess==0.5.2
 Pygments==2.2.0
+pyparsing==2.2.0
 python-dateutil==2.7.3
+pytz==2018.4
+PyYAML==3.12
 pyzmq==17.0.0
 qtconsole==4.3.1
 scipy==1.1.0

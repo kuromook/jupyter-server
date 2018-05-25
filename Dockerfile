@@ -1,7 +1,7 @@
 FROM ubuntu:16.04
 RUN apt-get update && apt-get install -y -q  sudo curl build-essential python3-dev python3-venv openssh-server
 
-RUN apt-get install -y -q tig
+RUN apt-get install -y -q vim tig
 RUN useradd -d /home/sh1 -s /bin/bash -g root -G sudo -p sh1 sh1
 
 RUN mkdir -p /home/sh1/jupyter_server
