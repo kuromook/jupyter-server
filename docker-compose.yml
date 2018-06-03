@@ -1,0 +1,9 @@
+version: '2'
+services:
+  model_flow:
+    image: jns:latest
+    volumes:
+     - "/home/sh1/notebook:/home/sh1/jupyter_server/notebook"
+    ports:
+     - "9999:9999"
+    tty: true
