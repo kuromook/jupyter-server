@@ -83,7 +83,7 @@ sphinxcontrib-serializinghtml==1.1.4
 statsmodels==0.11.1
 sympy==1.4
 tensorflow==1.4.0
-tensorflow-gpu==1.4.0
+tensorflow-gpu==1.15.2
 tensorflow-tensorboard==0.4.0
 termcolor==1.1.0
 terminado==0.8.1
