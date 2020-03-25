@@ -1,5 +1,5 @@
 FROM ubuntu:18.04
-RUN apt-get update && apt-get install -y -q  sudo curl build-essential python3 python3-venv openssh-server
+RUN apt-get update && apt-get install -y -q  sudo curl build-essential python3.7 python3-venv python3.7-venv openssh-server
 
 RUN apt-get update ; apt-get upgrade; apt-get install -y -q octave liboctave-dev python-sympy
 RUN apt-get install -y -q vim tig
@@ -16,6 +16,6 @@ RUN chmod 755 start.sh
 RUN chmod 755 cloud_sql_proxy
 RUN chown sh1:root -R /home/sh1/
 USER sh1
-RUN python3 -m venv venv
+RUN python3.7 -m venv venv
 RUN /bin/bash -c "source venv/bin/activate && pip install --upgrade pip && pip install -r requirements.txt"
 CMD /bin/bash  start.sh
