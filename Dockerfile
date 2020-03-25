@@ -1,5 +1,5 @@
-FROM ubuntu:16.04
-RUN apt-get update && apt-get install -y -q  sudo curl build-essential python3-dev python3-venv openssh-server
+FROM ubuntu:18.04
+RUN apt-get update && apt-get install -y -q  sudo curl build-essential python3.7 python3-venv openssh-server
 
 RUN apt-get update ; apt-get upgrade; apt-get install -y -q octave liboctave-dev python-sympy
 RUN apt-get install -y -q vim tig
