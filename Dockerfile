@@ -1,8 +1,6 @@
 FROM ubuntu:16.04
 ARG DEBIAN_FRONTEND=noninteractive
-
 RUN apt-get update && apt-get install -y -q  sudo curl build-essential python3-dev python3-venv openssh-server
-
 RUN apt-key adv --fetch-keys http://developer.download.nvidia.com/compute/cuda/repos/ubuntu1604/x86_64/7fa2af80.pub
 RUN wget http://developer.download.nvidia.com/compute/cuda/repos/ubuntu1604/x86_64/cuda-repo-ubuntu1604_9.1.85-1_amd64.deb
 RUN apt install ./cuda-repo-ubuntu1604_9.1.85-1_amd64.deb
@@ -23,7 +21,7 @@ RUN echo "sh1:sh1" | chpasswd
 RUN mkdir -p /home/sh1/jupyter_server
 ADD requirements.txt /home/sh1/jupyter_server/
 WORKDIR /home/sh1/jupyter_server
-ADD project-211906-88503801d795.json /home/sh1/jupyter_server
+ADD project-211906-88503801d795.json  /home/sh1/jupyter_server
 ADD cloud_sql_proxy /home/sh1/jupyter_server
 ADD start.sh /home/sh1/jupyter_server
 RUN chmod 755 start.sh
