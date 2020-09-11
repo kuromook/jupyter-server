@@ -1,5 +1,4 @@
 FROM ubuntu:18.04
-ARG DEBIAN_FRONTEND=noninteractive
 RUN apt-get update && apt-get install -y -q  sudo curl build-essential python3.7 python3-venv python3.7-dev python3.7-venv openssh-server
 
 RUN apt-key adv --fetch-keys http://developer.download.nvidia.com/compute/cuda/repos/ubuntu1604/x86_64/7fa2af80.pub
