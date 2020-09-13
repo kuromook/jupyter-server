@@ -12,10 +12,12 @@ chardet==3.0.4
 cycler==0.10.0
 decorator==4.4.2
 defusedxml==0.6.0
+dill==0.3.2
 docutils==0.16
 entrypoints==0.3
 enum34==1.1.10
 feature-engine==0.3.1
+future==0.18.2
 gast==0.2.2
 google-api-core==1.22.2
 google-auth==1.21.1
@@ -84,6 +86,7 @@ pickleshare==0.7.5
 pkg-resources==0.0.0
 portalocker==1.6.0
 prometheus-client==0.7.1
+promise==2.3
 prompt-toolkit==3.0.4
 proto-plus==1.9.1
 protobuf==3.13.0
@@ -121,16 +124,19 @@ sphinxcontrib-qthelp==1.0.3
 sphinxcontrib-serializinghtml==1.1.4
 statsmodels==0.11.1
 sympy==1.5.1
-tensorboard==1.15.0
+tensorboard==2.1.1
 tensorboard-plugin-wit==1.6.0.post2
-tensorflow==1.15.0
-tensorflow-estimator==1.15.1
-tensorflow-gpu==1.15.0
+tensorflow-datasets==3.2.1
+tensorflow-estimator==2.1.0
+tensorflow-examples @ git+https://github.com/tensorflow/examples.git@1bd0f6eb3aaaab9f4cd06b1e4c7534716e842491
+tensorflow-gpu==2.1.0
+tensorflow-metadata==0.24.0
 termcolor==1.1.0
 terminado==0.8.3
 testpath==0.4.4
 toolz==0.10.0
 tornado==6.0.4
+tqdm==4.49.0
 traitlets==4.3.3
 typing-extensions==3.7.4.3
 typing-inspect==0.6.0
