@@ -25,6 +25,6 @@ RUN chmod 755 cloud_sql_proxy
 RUN chown sh1:root -R /home/sh1/
 
 USER sh1
-RUN python3.7 -m venv venv
+RUN python3 -m venv venv
 RUN /bin/bash -c "source venv/bin/activate && pip install --upgrade pip && pip install -r requirements.txt"
 CMD /bin/bash  start.sh
