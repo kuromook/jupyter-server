@@ -69,7 +69,7 @@ mysql-connector==2.2.9
 nbconvert==5.6.1
 nbformat==5.0.4
 notebook==6.0.3
-numpy==1.18.2
+numpy==1.21.0
 numpydoc==0.9.2
 oauthlib==3.1.0
 octave-kernel==0.31.0
