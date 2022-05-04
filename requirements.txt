@@ -127,7 +127,6 @@ tensorboard==2.1.1
 tensorboard-plugin-wit==1.6.0.post2
 tensorflow-datasets==3.2.1
 tensorflow-estimator==2.1.0
-tensorflow-examples @ git+https://github.com/tensorflow/examples.git@1bd0f6eb3aaaab9f4cd06b1e4c7534716e842491
 tensorflow-gpu==2.1.0
 tensorflow-metadata==0.24.0
 termcolor==1.1.0
@@ -143,6 +142,6 @@ urllib3==1.25.8
 wcwidth==0.1.9
 webencodings==0.5.1
 Werkzeug==1.0.0
-widgetsnbextension==3.5.1
+widgetsnbextension==3.2.0
 wrapt==1.12.1
 zipp==3.1.0

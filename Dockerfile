@@ -30,5 +30,5 @@ RUN chown sh1:root -R /home/sh1/
 
 USER sh1
 RUN python3 -m venv venv
-RUN /bin/bash -c "source venv/bin/activate && pip install -r requirements.txt"
+RUN /bin/bash -c "source venv/bin/activate && pip install pip==9.0.1 && pip install -r requirements.txt"
 CMD /bin/bash  start.sh
