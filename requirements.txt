@@ -138,7 +138,7 @@ tqdm==4.49.0
 traitlets==4.3.3
 typing-extensions==3.7.4.3
 typing-inspect==0.6.0
-urllib3==1.25.8
+urllib3==1.26.5
 wcwidth==0.1.9
 webencodings==0.5.1
 Werkzeug==1.0.0
